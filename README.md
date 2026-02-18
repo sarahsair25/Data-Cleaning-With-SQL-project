@@ -55,25 +55,40 @@ The raw dataset intentionally contains the following problems:
 ✅ Inconsistent casing — "BOB SMITH", "chicago", "completed"
 
 ✅ Inconsistent country names — "US", "United States", "usa", "USA"
+
 ✅ Mixed date formats — YYYY-MM-DD, DD-MM-YYYY, YYYY/MM/DD, Month DD, YYYY
+
 ✅ Invalid emails — david@@example.com (double @)
+
 ✅ Messy phone numbers — (312) 555-1234, 312.555.5678, +1-800-555-0199
+
 ✅ Placeholder values — "N/A", "0000000000", "n/a" in price/phone
+
 ✅ Invalid quantities — -1, 0
+
 ✅ Currency symbols in price — "$45.00" stored as text
+
 ✅ NULL / blank names — missing customer_name
+
 ✅ Inconsistent whitespace — "  David Lee  ", "Hank   Morris"
 
 
 **📊 Key SQL Concepts Used**
 
 ROW_NUMBER() window function for deduplication
+
 REGEXP_REPLACE() for phone number normalization
+
 CASE WHEN for multi-format date parsing
+
 TO_DATE() for string-to-date conversion
+
 INITCAP() / LOWER() / TRIM() for text standardization
+
 CAST() for type conversion
+
 Computed columns (quantity * unit_price)
+
 Aggregation for data quality scoring
 
 
