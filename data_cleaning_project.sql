@@ -1,7 +1,7 @@
 -- ============================================================
 --   DATA CLEANING WITH SQL - Complete Project
 --   Dataset: customer_orders (simulated e-commerce data)
---   Author: Your Name
+--   Author: Sarah Sair 
 -- ============================================================
 
 -- ============================================================
