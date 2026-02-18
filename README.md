@@ -1,3 +1,13 @@
+
+<img width="1536" height="1024" alt="SQL project" src="https://github.com/user-attachments/assets/dd5a6f63-cb63-49b9-a1ad-ff225d335df7" />
+
+
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
+![pgAdmin](https://img.shields.io/badge/Tool-pgAdmin%204-success)
+![Portfolio](https://img.shields.io/badge/Portfolio-Data%20Analyst-orange)
+
+
 🧹 Data Cleaning with SQL
 
 A hands-on SQL project demonstrating professional data cleaning techniques on a simulated e-commerce customer orders dataset.
